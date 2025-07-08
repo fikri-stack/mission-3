@@ -316,14 +316,16 @@ footer{
     margin-top: 20px;
    }
    .mobile-card img{
+    display: flex;
+    justify-content: center;
     position: relative;
-    left: 30px;
-    width: 340px;
+    left: 50px;
+    width: 300px;
     margin-top: 20px;
    }
    .cta-mobile img{
     position: relative;
-    left: 10px;
+    left: 15px;
     width: 370px;
     margin-top: -8px;
    }
@@ -332,5 +334,8 @@ footer{
     left: 10px;
     top: -50px;
     width: 400px;
+   }
+   .card-img{
+    width: 350px!important;
    }
 }
