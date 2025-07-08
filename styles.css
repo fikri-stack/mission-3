@@ -325,7 +325,7 @@ footer{
    }
    .cta-mobile img{
     position: relative;
-    left: 15px;
+    left: 30px;
     width: 370px;
     margin-top: -8px;
    }
@@ -337,5 +337,11 @@ footer{
    }
    .card-img{
     width: 350px!important;
+   }
+   .cta-img{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    
    }
 }
